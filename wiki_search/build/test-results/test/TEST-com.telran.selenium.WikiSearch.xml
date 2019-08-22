@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.telran.selenium.WikiSearch" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-08-21T21:32:36" hostname="LAPTOP-QSAH0PNH" time="38.215">
+  <properties/>
+  <testcase name="wikiSearch2" classname="com.telran.selenium.WikiSearch" time="38.215"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[1566423160626	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\9C42~1\\AppData\\Local\\Temp\\rust_mozprofile.FpOvNiJ5CVHy"
+1566423163914	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1566423163915	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1566423163916	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1566423163919	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1566423170032	Marionette	INFO	Listening on port 57646
+1566423170064	Marionette	WARN	TLS certificate errors will be ignored for this session
+авг 22, 2019 12:32:50 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1566423186150	Marionette	INFO	Stopped listening on port 57646
+[Parent 6800, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 6800, Gecko_IOThread] WARNING: file z:/task_1565706750/build/src/ipc/chromium/src/base/process_util_win.cc, line 160
+[Parent 6800, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+]]></system-err>
+</testsuite>
