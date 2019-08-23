@@ -2,7 +2,7 @@ package com.telran.selenium;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
@@ -14,7 +14,7 @@ public class WikiSearch {
 
 
     public void clickk(String url, String searchword) {
-        wd=new FirefoxDriver();
+        wd=new ChromeDriver();
         wd.get(url);
         wd.findElement(By.name("search")).click();
         wd.findElement(By.name("search")).clear();

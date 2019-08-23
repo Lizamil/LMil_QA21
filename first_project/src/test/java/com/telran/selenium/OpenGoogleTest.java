@@ -1,26 +1,25 @@
 package com.telran.selenium;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.Keys;
 import org.testng.annotations.Test;
 
-public class OpenGoogleTest {
-    WebDriver driver;
+public class OpenGoogleTest extends TestBase{
 
     @Test
-    public void setUP() throws InterruptedException {
-     driver=new ChromeDriver();
-     driver.get("https://www.google.com");
-    // or  driver.navigate().to(); it's the same
-        driver.findElement(By.name("q")).sendKeys("java");
-
-
+    public void searchJavaTest() throws InterruptedException {
+        driver.get("https://www.google.com");
+        driver.findElement(By.name("q")).click();
+        driver.findElement(By.name("q")).clear();
+        driver.findElement(By.name("q")).sendKeys("java"+ Keys.ENTER);
         Thread.sleep(8000);
-                driver.quit();
     }
 
-
-
+   /* @Test
+    public void ImLucky() throws InterruptedException {
+       new Actions(driver).
+               moveToElement(driver.findElement(By.name("btnI"))).click().perform();
+        Thread.sleep(8000);
+    }*/
 
 }
