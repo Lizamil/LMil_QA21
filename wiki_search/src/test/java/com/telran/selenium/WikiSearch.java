@@ -6,12 +6,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
-import java.util.List;
-import java.util.Set;
-
 public class WikiSearch {
     WebDriver wd;
-
 
     public void clickk(String url, String searchword) {
         wd=new ChromeDriver();
