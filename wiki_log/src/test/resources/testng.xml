@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Wiki" verbose="1" >
+
+    <test name="RegressionTrello">
+        <classes>
+            <class name="telran.hw.lesson04.WikiLoginTest"/>
+            <class name="telran.hw.lesson04.WikiSearch"/>
+            </classes>
+    </test>
+</suite>

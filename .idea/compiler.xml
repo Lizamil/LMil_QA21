@@ -4,6 +4,8 @@
     <bytecodeTargetLevel>
       <module name="first_project.main" target="1.8" />
       <module name="first_project.test" target="1.8" />
+      <module name="LMil_QA21.wiki_log.main" target="1.8" />
+      <module name="LMil_QA21.wiki_log.test" target="1.8" />
       <module name="LMil_QA21.wiki_search.main" target="1.8" />
       <module name="LMil_QA21.wiki_search.test" target="1.8" />
       <module name="QA_21.first_project.main" target="1.8" />
