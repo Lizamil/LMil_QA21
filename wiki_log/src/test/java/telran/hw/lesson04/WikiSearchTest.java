@@ -1,0 +1,19 @@
+package telran.hw.lesson04;
+
+import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+public class WikiSearchTest extends TestBase {
+    WebDriver driver;
+
+    @Test
+    public void wikiSearchTest() {
+        String search = "gaGARin";
+        app.getSearchHelper().searchInWiki(search);
+        Assert.assertTrue(app.getSearchHelper().firstHeadingContainsSearchWord(search));
+            }
+
+
+}
+
