@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="test.WikiSearchTest" tests="1" skipped="1" failures="0" errors="0" timestamp="2019-09-21T17:39:20" hostname="LAPTOP-QSAH0PNH" time="0.0">
+<testsuite name="test.WikiSearchTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-09-21T18:44:18" hostname="LAPTOP-QSAH0PNH" time="5.353">
   <properties/>
-  <testcase name="wikiSearchTest" classname="test.WikiSearchTest" time="0.0">
-    <skipped/>
-  </testcase>
+  <testcase name="wikiSearchTest" classname="test.WikiSearchTest" time="5.353"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
