@@ -1,4 +1,4 @@
-package telran.hw.lesson04;
+package manager;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -23,5 +23,5 @@ public class SearchHelper extends BaseHelper {
         return driver.findElement(locator).getText();
     }
 
-    //*[@id='p-lang-label']/..//li   Count of Languages
+
 }

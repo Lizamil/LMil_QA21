@@ -4,8 +4,8 @@
 
     <test name="RegressionTrello">
         <classes>
-            <class name="telran.hw.lesson04.WikiLoginTest"/>
-            <class name="telran.hw.lesson04.WikiSearch"/>
+            <class name="test.WikiLoginTest"/>
+            <class name="test.WikiSearchTest"/>
             </classes>
     </test>
 </suite>

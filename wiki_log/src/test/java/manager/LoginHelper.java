@@ -1,4 +1,4 @@
-package telran.hw.lesson04;
+package manager;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

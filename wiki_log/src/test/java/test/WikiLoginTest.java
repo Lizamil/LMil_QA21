@@ -1,4 +1,4 @@
-package telran.hw.lesson04;
+package test;
 
 import org.openqa.selenium.By;
 import org.testng.Assert;
