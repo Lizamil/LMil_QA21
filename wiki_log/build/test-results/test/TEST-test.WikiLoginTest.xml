@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="test.WikiLoginTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-10-05T13:12:03" hostname="LAPTOP-QSAH0PNH" time="18.099">
+<testsuite name="test.WikiLoginTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-10-05T14:18:32" hostname="LAPTOP-QSAH0PNH" time="27.296">
   <properties/>
-  <testcase name="LodInTest" classname="test.WikiLoginTest" time="18.099"/>
+  <testcase name="LodInTest" classname="test.WikiLoginTest" time="27.296"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
+  <system-err><![CDATA[1570285120428	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1570285129375	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+]]></system-err>
 </testsuite>
