@@ -9,7 +9,7 @@ public class WikiSearchTest extends TestBase {
 
     @Test
     public void wikiSearchTest() {
-        String search = "gaGARinA";
+        String search = "gaGARin";
         app.getSearchHelper().searchInWiki(search);
         Assert.assertTrue(app.getSearchHelper().firstHeadingContainsSearchWord(search));
             }
