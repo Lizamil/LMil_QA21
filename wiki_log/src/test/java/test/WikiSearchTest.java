@@ -12,7 +12,6 @@ public class WikiSearchTest extends TestBase {
         String search = "gaGARin";
         app.getSearchHelper().searchInWiki(search);
         Assert.assertTrue(app.getSearchHelper().firstHeadingContainsSearchWord(search));
-
             }
 }
 
