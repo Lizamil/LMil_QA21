@@ -13,5 +13,6 @@ public class WikiSearchTest extends TestBase {
         app.getSearchHelper().searchInWiki(search);
         Assert.assertTrue(app.getSearchHelper().firstHeadingContainsSearchWord(search));
             }
+
 }
 
