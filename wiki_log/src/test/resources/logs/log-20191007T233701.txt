@@ -1,2 +1,0 @@
-23:37:32.236 [] INFO  test.TestBase - start test LodInTest with parameters []
-23:37:42.048 [] INFO  test.TestBase - stop test LodInTest with parameters []

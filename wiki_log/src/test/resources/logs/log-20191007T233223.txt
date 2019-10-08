@@ -1,4 +1,0 @@
-23:33:58.924 [main] INFO  test.TestBase - start test LodInTest with parameters []
-23:34:23.713 [main] INFO  test.TestBase - stop test LodInTest with parameters []
-23:34:23.770 [main] INFO  test.TestBase - start test wikiSearchTest with parameters []
-23:34:41.465 [main] INFO  test.TestBase - stop test wikiSearchTest with parameters []
