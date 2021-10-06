@@ -16,6 +16,7 @@ public class LoginHelper extends BaseHelper {
 
         click(By.name("wpRemember"));
         click(By.name("wploginattempt"));
+
     }
 
 
